@@ -1,0 +1,34 @@
+# maven
+target/
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse
+.settings/
+.project
+.classpath
+
+# idea
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp
+saturn-job-console/logs/
+*.doc
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system
+.DS_Store
+Thumbs.db
+sh.exe.stackdump
+
+# console static
+saturn-console/src/main/resources/static

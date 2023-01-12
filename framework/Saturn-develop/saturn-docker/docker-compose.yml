@@ -1,0 +1,26 @@
+version: '2'
+services:
+  db:
+    image: saturn/saturn-db
+    container_name: saturn_db
+    restart: always
+    ports:
+      - 3308:3306
+    environment:
+        - MYSQL_ROOT_PASSWORD=defaultpass
+  console:
+    image: saturn/saturn-console
+    container_name: saturn_console 
+    restart: always
+    links:
+      - db
+    ports:
+      - 9088:9088
+      - 2181:2181
+  demo-init:
+    image: saturn/demo-init
+    container_name: demo-init
+    volumes: 
+      - /saturn-executor/apps
+    links:
+      - console

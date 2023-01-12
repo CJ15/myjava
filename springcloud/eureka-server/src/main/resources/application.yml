@@ -1,0 +1,67 @@
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: 9100
+
+eureka:
+  instance:
+    hostname: localhost #主机名，不配置时根据操作系统的主机名获取
+    metadata-map: #自定义元数据
+      app-type: eureka-server
+    instance-id: ${spring.application.name}
+    home-page-url: #应用主页的 URL(绝对路径)
+    status-page-url: #状态页的 URL(绝对路径)
+    health-check-url: #健康检查的 URL(绝对路径)
+    home-page-url-path: /info #应用主页的 URL(相对路径)
+    health-check-url-path: /health #健康检查的 URL(相对路径)
+    prefer-ip-address: false #是否优先使用 IP 地址作为主机名的标识
+    lease-renewal-interval-in-seconds: 30 # Eureka 客户端像服务端发送心跳的间隔时间，单位：秒
+    lease-expiration-duration-in-seconds: 90 # Eureka 服务端在收到最后一次请求后的等待时间上限，单位：秒。超过该时间后，服务端会从服务清单中剔除服务实例
+    non-secure-port: 80 #非安全的通信端口
+    secure-port: 443 #安全的通信端口
+    non-secure-port-enabled: true #是否启用非安全的通信端口
+    secure-port-enabled: false #是否启用安全的通信端口
+    appname: #应用名，默认为 unknown
+
+  client:
+    register-with-eureka: false #是否注册到注册中心
+    fetch-registry: false #是否从服务端拉去数据
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    registry-fetch-interval-seconds: 30 #从 Eureka Server 获取注册信息的超时时间，单位：秒
+    instance-info-replication-interval-seconds: 30 #更新实例信息的变化到服务端的间隔时间，单位：秒
+    initial-instance-info-replication-interval-seconds: 40 #初始化实例信息到服务端的间隔时间，单位：秒
+    eureka-service-url-poll-interval-seconds: 300 #轮询服务端地址更改的时间，单位：秒
+    eureka-server-read-timeout-seconds: 8 #读取 Eureka Server 的超时时间，单位：秒
+    eureka-server-connect-timeout-seconds: 5 #连接 Eureka Server 的超时时间，单位：秒
+    eureka-server-total-connections: 200 #从 Eureka 客户端到所有 Eureka 服务端的连接总数
+    eureka-server-total-connections-per-host: 50 #从 Eureka 客户端到每个 Eureka 服务端主机的连接总数
+    eureka-connection-idle-timeout-seconds: 30 #Eureka 服务端连接的空闲关闭时间，单位：秒
+    heartbeat-executor-thread-pool-size: 2 #心跳连接池的初始化线程数
+    heartbeat-executor-exponential-back-off-bound: 10 #心跳超时重试延迟时间的最大乘数值
+    use-dns-for-fetching-service-urls: false #使用 DSN 来获取 Eureka 服务端的 ServiceUrl
+    prefer-same-zone-eureka: true #是否偏好使用处于相同 zone 的 Eureka 服务端
+    filter-only-up-instances: true #获取实例时是否过滤，仅保留 UP 状态
+    healthcheck:
+      enabled: true #将 Eureka 的健康检查委托给 spring-boot-starter-actuator 代理
+
+
+# 1、EurekaClientConfigBean 可查看客户端配置
+# 2、EurekaInstanceConfigBean 服务实例类配置
+# 3、当在同一台主机上启动多个应用时，实例名相同会导致只有一个实例可用，默认的实例名的初始化如下：
+#   (1) ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance-id}:${server.port}
+# 4、默认情况下，Eureka使用 jersey 和 XStream 配合 JSON 作为 Client 和 Server 之间的通信协议
+#   (1) XStream ：将对象序列化成 XML(JSON) 或反序列化为对象
+#   (2) JAX-RS ：Java Api For a RESTFul Web Services
+# 5、核心配置类枚举
+#   (1) EurekaClientAutoConfiguration
+# ！！！DiscoveryClient的注册，续约，心跳源码阅读
+
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: "*"

@@ -1,0 +1,13 @@
+language: java
+
+dist: trusty
+
+jdk:
+  - oraclejdk8
+  - openjdk7
+
+branches:
+  only:
+    - develop
+
+script: mvn clean install -Pjacoco -Dsaturn.it.log.level=WARN

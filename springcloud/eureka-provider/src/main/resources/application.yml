@@ -1,0 +1,18 @@
+server:
+  port: 9200
+
+spring:
+  application:
+    name: eureka-provider
+
+eureka:
+  instance:
+    hostname: localhost
+    lease-renewal-interval-in-seconds: 30 #服务续约任务的间隔时间
+    lease-expiration-duration-in-seconds: 90 #服务失效的时间
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka-server01:9101/eureka/,http://eureka-server02:9102/eureka/
+
