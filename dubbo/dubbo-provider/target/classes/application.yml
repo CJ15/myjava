@@ -1,0 +1,30 @@
+server:
+  port: 11001
+
+dubbo:
+  application:
+    name: dubbo-provider
+  registry:
+    address: 172.32.148.102:2181
+    protocol: zookeeper
+    check: false
+    timeout: 60000
+  protocol:
+    name: dubbo
+    port: 30003
+    server: netty
+  monitor:
+    protocol: register
+  consumer:
+    check: false
+    timeout: 3000
+
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: "*"
+
+
+

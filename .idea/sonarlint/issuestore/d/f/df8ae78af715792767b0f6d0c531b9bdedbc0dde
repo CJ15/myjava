@@ -1,0 +1,13 @@
+
+`	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(—³‡ëûÿÿÿÿ
+`	java:S112L"FDefine and throw a dedicated exception instead of using a generic one.(¸â›æÿÿÿÿÿ
+`	java:S112S"FDefine and throw a dedicated exception instead of using a generic one.(Á¼Í³ûÿÿÿÿ
+a	java:S112†"FDefine and throw a dedicated exception instead of using a generic one.(â˜ì¶ÿÿÿÿÿ
+a	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(¼æŒ¬ÿÿÿÿÿ
+\	java:S112Ñ"FDefine and throw a dedicated exception instead of using a generic one.(Ù¶Àç
+‡
+java:S1130)"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(—³‡ëûÿÿÿÿ
+m	java:S1271"XRefactor the code in order to not assign to this loop counter from within the loop body.(±‚ò÷
+m	java:S1276"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ã´ôš
+m	java:S1279"XRefactor the code in order to not assign to this loop counter from within the loop body.(¬àÆó
+r	java:S127<"XRefactor the code in order to not assign to this loop counter from within the loop body.(äÁ»šøÿÿÿÿ

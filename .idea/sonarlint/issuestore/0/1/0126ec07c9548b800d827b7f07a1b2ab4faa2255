@@ -1,0 +1,36 @@
+
+E
+java:S3740&"/Provide the parametrized type for this generic.(ôï
+E
+java:S3740-"/Provide the parametrized type for this generic.(Èç›í
+J
+java:S3740."/Provide the parametrized type for this generic.(©ÂØÛşÿÿÿÿ
+J
+java:S3740R"/Provide the parametrized type for this generic.(İ÷¼ƒúÿÿÿÿ
+J
+java:S3740o"/Provide the parametrized type for this generic.(ù†´Îùÿÿÿÿ
+J
+java:S3740o"/Provide the parametrized type for this generic.(ù†´Îùÿÿÿÿ
+J
+java:S3740o"/Provide the parametrized type for this generic.(ù†´Îùÿÿÿÿ
+J
+java:S3740o"/Provide the parametrized type for this generic.(ù†´Îùÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–İ–Ò
+u
+java:S1149?"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+z
+java:S1149M"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(›ì˜ùÿÿÿÿ
+z
+java:S1149N"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ë‚‘ñùÿÿÿÿ
+z
+java:S1149O"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(éä­¨ıÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(¥È™
+U	java:S899/";Do something with the "boolean" value returned by "delete".(é‘‚©úÿÿÿÿ
+i
+java:S4042/"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(é‘‚©úÿÿÿÿ
+]	java:S125A"<This block of commented-out lines of code should be removed.(ßÑñ™ÿÿÿÿÿ8ÚË™÷Ô0
+t
+java:S2293o"YReplace the type specification in this constructor call with the diamond operator ("<>").(ù†´Îùÿÿÿÿ
+j
+java:S2095"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(•ºÔÈıÿÿÿÿ8Ì•÷Ô0

@@ -1,0 +1,21 @@
+server:
+  port: 9101
+
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  instance:
+    hostname: eureka-server01
+    prefer-ip-address: false
+  server:
+    enable-self-preservation: true
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eureka-server02:9102/eureka/
+
+
+

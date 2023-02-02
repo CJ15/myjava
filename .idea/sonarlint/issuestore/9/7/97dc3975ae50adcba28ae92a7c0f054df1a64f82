@@ -1,0 +1,49 @@
+
+a	java:S112Á"FDefine and throw a dedicated exception instead of using a generic one.(ê£¿ÿÿÿÿÿ
+\	java:S112Æ"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı
+\	java:S112í"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı
+a	java:S112ø"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+\	java:S112‹"FDefine and throw a dedicated exception instead of using a generic one.(£äÓ¢
+a	java:S112¾"FDefine and throw a dedicated exception instead of using a generic one.(ìü§Óùÿÿÿÿ
+a	java:S112ö"FDefine and throw a dedicated exception instead of using a generic one.(ÒĞÒóûÿÿÿÿ
+\	java:S112¼"FDefine and throw a dedicated exception instead of using a generic one.(‘Ÿ—Â
+\	java:S112Â"FDefine and throw a dedicated exception instead of using a generic one.(òŸ„¥
+\	java:S112ñ"FDefine and throw a dedicated exception instead of using a generic one.(õ„°ñ
+a	java:S112ü"FDefine and throw a dedicated exception instead of using a generic one.(º›«Ïúÿÿÿÿ
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(²°ó«ûÿÿÿÿ
+m
+java:S3776x"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.( ÚÕïıÿÿÿÿ
+A
+java:S1181ˆ"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+u
+java:S2142²"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+;
+java:S1168€"$Return an empty map instead of null.(¥¹ï
+B
+java:S1168ˆ"$Return an empty map instead of null.(¥¹ï8¹‘¬ãÖ0
+i
+java:S3776¼"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(‘Ÿ—Â
+A
+java:S1181æ"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+A
+java:S1181ç"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+A
+java:S1181´"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+A
+java:S1181æ"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+|
+java:S2142ğ"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8Ó‘¬ãÖ0
+H
+java:S1181È"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ8Ö‘¬ãÖ0
+u
+java:S3776Ú"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(İ‰­Üüÿÿÿÿ8×‘¬ãÖ0
+Q
+java:S1141ƒ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+>
+java:S1604z"(Make this anonymous inner class a lambda(åšÛÓ
+?
+java:S1604"(Make this anonymous inner class a lambda(µÓà
+>
+java:S1604¨"(Make this anonymous inner class a lambda(ì„À
+K
+java:S1604á"(Make this anonymous inner class a lambda(³€ˆíøÿÿÿÿ8ä‘¬ãÖ0

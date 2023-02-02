@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dubbo/dubbo-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/dubbo-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-official-processors/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-server/powerjob-server-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-server/powerjob-server-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-server/powerjob-server-extension/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-server/powerjob-server-migrate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-server/powerjob-server-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-server/powerjob-server-persistence/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-server/powerjob-server-remote/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-server/powerjob-server-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-server/powerjob-server-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-worker-agent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-worker-agent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-worker-samples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-worker-samples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-worker-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-worker-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-worker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/PowerJob-master/powerjob-worker/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-console-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-console-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-console/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-console/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-embed-spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-embed/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-executor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-executor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-integrate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-job-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-job-sharding/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/Saturn-develop/saturn-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/eureka-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/eureka-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/src/main/java" charset="UTF-8" />
+  </component>
+</project>

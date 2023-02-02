@@ -1,0 +1,14 @@
+
+h	java:S112ô"FDefine and throw a dedicated exception instead of using a generic one.(—­¦¥ûÿÿÿÿ8Š·®ÒÑ0
+B
+java:S1168"$Return an empty map instead of null.(¥¹ï8¡·®ÒÑ0
+f
+java:S5361Ç"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¡ùó¢8Ñ·®ÒÑ0
+f
+java:S5361Ç"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¡ùó¢8Ñ·®ÒÑ0
+f
+java:S5361Ç"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¡ùó¢8Ò·®ÒÑ0
+H
+java:S1181ˆ"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ8Û·®ÒÑ0
+{
+java:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰Æ²™üÿÿÿÿ8â·®ÒÑ0

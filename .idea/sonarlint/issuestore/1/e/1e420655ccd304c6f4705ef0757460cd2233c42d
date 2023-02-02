@@ -1,0 +1,37 @@
+
+[	java:S112|"FDefine and throw a dedicated exception instead of using a generic one.(ÔáÇ›
+a	java:S112Ï"FDefine and throw a dedicated exception instead of using a generic one.(ÄĞìÏøÿÿÿÿ
+[	java:S112|"FDefine and throw a dedicated exception instead of using a generic one.(ÔáÇ›
+J
+java:S2201c"/The return value of "orElseThrow" must be used.(êî©äüÿÿÿÿ
+a	java:S112Ï"FDefine and throw a dedicated exception instead of using a generic one.(ÄĞìÏøÿÿÿÿ
+H
+java:S1602€",Remove useless curly braces around statement(¿“š‚ıÿÿÿÿ
+J
+java:S2201c"/The return value of "orElseThrow" must be used.(êî©äüÿÿÿÿ
+H
+java:S1602€",Remove useless curly braces around statement(¿“š‚ıÿÿÿÿ
+F
+java:S1874ã"/Remove this use of "isEmpty"; it is deprecated.(çÈÚ¶
+F
+java:S1874ã"/Remove this use of "isEmpty"; it is deprecated.(çÈÚ¶
+K
+java:S1066ä"/Merge this if statement with the enclosing one.(õÌÏ‘ùÿÿÿÿ
+a
+java:S2184W"FCast one of the operands of this multiplication operation to a "long".(èò±Ïøÿÿÿÿ
+b
+java:S2184Ó"FCast one of the operands of this multiplication operation to a "long".(¥Ì¾Ûøÿÿÿÿ
+K
+java:S1066ä"/Merge this if statement with the enclosing one.(õÌÏ‘ùÿÿÿÿ
+a
+java:S2184W"FCast one of the operands of this multiplication operation to a "long".(èò±Ïøÿÿÿÿ
+b
+java:S2184Ó"FCast one of the operands of this multiplication operation to a "long".(¥Ì¾Ûøÿÿÿÿ
+Y
+java:S2259í"BA "NullPointerException" could be thrown; "head" is nullable here.(¡ºË
+a
+java:S2259í"JA "NullPointerException" could be thrown; "getObjectId()" can return null.(¡ºË
+Y
+java:S2259í"BA "NullPointerException" could be thrown; "head" is nullable here.(¡ºË
+a
+java:S2259í"JA "NullPointerException" could be thrown; "getObjectId()" can return null.(¡ºË

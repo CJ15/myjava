@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="saturn-core" />
+        <module name="saturn-executor" />
+        <module name="powerjob-worker-samples" />
+        <module name="eureka-server" />
+        <module name="saturn-console-api" />
+        <module name="saturn-job-sharding" />
+        <module name="saturn-embed" />
+        <module name="powerjob-server-migrate" />
+        <module name="saturn-integrate" />
+        <module name="powerjob-server-starter" />
+        <module name="saturn-embed-spring" />
+        <module name="powerjob-official-processors" />
+        <module name="powerjob-server-remote" />
+        <module name="powerjob-server-extension" />
+        <module name="saturn-plugin" />
+        <module name="saturn-spring" />
+        <module name="powerjob-worker-spring-boot-starter" />
+        <module name="test" />
+        <module name="saturn-console" />
+        <module name="powerjob-server-core" />
+        <module name="powerjob-server-monitor" />
+        <module name="saturn-springboot" />
+        <module name="powerjob-server-common" />
+        <module name="saturn-it" />
+        <module name="powerjob-client" />
+        <module name="powerjob-worker" />
+        <module name="eureka-provider" />
+        <module name="dubbo-provider" />
+        <module name="myspring" />
+        <module name="powerjob-worker-agent" />
+        <module name="powerjob-server-persistence" />
+        <module name="eureka-consumer" />
+        <module name="powerjob-common" />
+        <module name="saturn-job-api" />
+        <module name="dubbo-api" />
+        <module name="dubbo-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo" target="1.8" />
+      <module name="dubbo-api" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-provider" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="myjava" target="1.8" />
+      <module name="myspring" target="1.8" />
+      <module name="powerjob" target="1.8" />
+      <module name="powerjob-client" target="1.8" />
+      <module name="powerjob-common" target="1.8" />
+      <module name="powerjob-official-processors" target="1.8" />
+      <module name="powerjob-server" target="1.8" />
+      <module name="powerjob-server-common" target="1.8" />
+      <module name="powerjob-server-core" target="1.8" />
+      <module name="powerjob-server-extension" target="1.8" />
+      <module name="powerjob-server-migrate" target="1.8" />
+      <module name="powerjob-server-monitor" target="1.8" />
+      <module name="powerjob-server-persistence" target="1.8" />
+      <module name="powerjob-server-remote" target="1.8" />
+      <module name="powerjob-server-starter" target="1.8" />
+      <module name="powerjob-worker" target="1.8" />
+      <module name="powerjob-worker-agent" target="1.8" />
+      <module name="powerjob-worker-samples" target="1.8" />
+      <module name="powerjob-worker-spring-boot-starter" target="1.8" />
+      <module name="saturn-console" target="1.8" />
+      <module name="saturn-console-api" target="1.8" />
+      <module name="saturn-console-web" target="1.8" />
+      <module name="saturn-core" target="1.8" />
+      <module name="saturn-embed" target="1.8" />
+      <module name="saturn-embed-spring" target="1.8" />
+      <module name="saturn-executor" target="1.8" />
+      <module name="saturn-integrate" target="1.8" />
+      <module name="saturn-it" target="1.8" />
+      <module name="saturn-job" target="1.8" />
+      <module name="saturn-job-api" target="1.8" />
+      <module name="saturn-job-sharding" target="1.8" />
+      <module name="saturn-plugin" target="1.8" />
+      <module name="saturn-spring" target="1.8" />
+      <module name="saturn-springboot" target="1.8" />
+      <module name="springcloud" target="1.8" />
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo" options="-parameters" />
+      <module name="dubbo-api" options="-parameters" />
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
+      <module name="eureka-consumer" options="-parameters" />
+      <module name="eureka-provider" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="myjava" options="-parameters" />
+      <module name="myspring" options="-parameters" />
+      <module name="springcloud" options="-parameters" />
+      <module name="test" options="-parameters" />
+    </option>
+  </component>
+</project>

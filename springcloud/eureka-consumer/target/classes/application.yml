@@ -1,0 +1,16 @@
+server:
+  port: 9300
+
+spring:
+  application:
+    name: ribbon-consumer
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    registry-fetch-interval-seconds: 30 #拉去服务列表的时间
+    service-url:
+      defaultZone: http://eureka-server01:9101/eureka/,http://eureka-server02:9102/eureka/

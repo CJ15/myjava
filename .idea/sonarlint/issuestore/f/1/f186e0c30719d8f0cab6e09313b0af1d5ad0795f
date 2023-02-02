@@ -1,0 +1,23 @@
+
+˜
+java:S1186Ü"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ì›ûÃ
+˜
+java:S1186à"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚÷ğ˜
+
+java:S1186ä"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ıçşÿÿÿÿ
+@
+java:S1181W"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+A
+java:S1181‡"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+A
+java:S1181©"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+n
+java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾éû
+o
+java:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(¹™Ñ¥
+p
+java:S2293¸"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãåÇÅ
+>
+java:S1604Q"(Make this anonymous inner class a lambda(Ç—Œ‹
+v
+java:S1488w"`Immediately return this expression instead of assigning it to the temporary variable "callable".(Ñš²

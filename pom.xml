@@ -24,6 +24,7 @@
 		<module>springcloud</module>
 		<module>dubbo</module>
 		<module>test</module>
+		<module>myspring</module>
 	</modules>
 
 	<dependencies>
