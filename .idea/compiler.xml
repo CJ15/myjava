@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test" />
+        <module name="dubbo-provider" />
+        <module name="eureka-provider" />
+        <module name="disconf-core" />
+        <module name="disconf-client" />
+        <module name="disconf-web" />
+        <module name="eureka-consumer" />
+        <module name="eureka-server" />
+        <module name="dubbo-api" />
+        <module name="dubbo-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="disconf-base" target="1.7" />
+      <module name="disconf-client" target="1.7" />
+      <module name="disconf-core" target="1.7" />
+      <module name="disconf-web" target="1.7" />
+      <module name="dubbo" target="1.8" />
+      <module name="dubbo-api" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-provider" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="myjava" target="1.8" />
+      <module name="springcloud" target="1.8" />
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="disconf-client" options="-verbose -bootclasspath &quot;$PROJECT_DIR$/../../Program Files/Java/1.8/jdk1.8.0_181/jre/lib/rt.jar&quot;" />
+      <module name="disconf-core" options="-verbose -bootclasspath &quot;$PROJECT_DIR$/../../Program Files/Java/1.8/jdk1.8.0_181/jre/lib/rt.jar&quot;" />
+      <module name="disconf-web" options="-verbose -bootclasspath &quot;$PROJECT_DIR$/../../Program Files/Java/1.8/jdk1.8.0_181/jre/lib/rt.jar&quot;" />
+      <module name="dubbo-api" options="-parameters" />
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
+      <module name="eureka-consumer" options="-parameters" />
+      <module name="eureka-provider" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="test" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/framework/disconf-master/disconf-base.iml" filepath="$PROJECT_DIR$/framework/disconf-master/disconf-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/disconf-master/disconf-client/disconf-client.iml" filepath="$PROJECT_DIR$/framework/disconf-master/disconf-client/disconf-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/disconf-master/disconf-core/disconf-core.iml" filepath="$PROJECT_DIR$/framework/disconf-master/disconf-core/disconf-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/disconf-master/disconf-web/disconf-web.iml" filepath="$PROJECT_DIR$/framework/disconf-master/disconf-web/disconf-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo/dubbo.iml" filepath="$PROJECT_DIR$/dubbo/dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo/dubbo-api/dubbo-api.iml" filepath="$PROJECT_DIR$/dubbo/dubbo-api/dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo/dubbo-consumer/dubbo-consumer.iml" filepath="$PROJECT_DIR$/dubbo/dubbo-consumer/dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/dubbo/dubbo-provider/dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/springcloud/eureka-consumer/eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/eureka-provider/eureka-provider.iml" filepath="$PROJECT_DIR$/springcloud/eureka-provider/eureka-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/springcloud/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myjava.iml" filepath="$PROJECT_DIR$/myjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/springcloud/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>

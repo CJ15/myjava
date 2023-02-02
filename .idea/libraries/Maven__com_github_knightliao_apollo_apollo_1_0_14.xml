@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.knightliao.apollo:apollo:1.0.14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Program Files/Apache/Maven/repositories/com/github/knightliao/apollo/apollo/1.0.14/apollo-1.0.14.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Program Files/Apache/Maven/repositories/com/github/knightliao/apollo/apollo/1.0.14/apollo-1.0.14-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Program Files/Apache/Maven/repositories/com/github/knightliao/apollo/apollo/1.0.14/apollo-1.0.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
